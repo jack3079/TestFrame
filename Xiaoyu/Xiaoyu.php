@@ -42,7 +42,7 @@ class xy
                 self::$classFile[$className] = $className;
             } else {
                 echo "<pre>";
-                throw new \Exception('您要加载的文件不存在！'.p(self::$classFile));
+                throw new \Exception('您要加载的文件不存在！');
             }
         }
     }
